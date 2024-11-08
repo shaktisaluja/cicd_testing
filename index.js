@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.use("/test", (req, res) => {
+app.use("/api/test", (req, res) => {
   res.send({ message: "server is running" });
 });
 
